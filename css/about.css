@@ -1,0 +1,393 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: raleway light;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.menu-area {}
+
+.fixed-header {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    background-color: rgba(000,000,000,.8);
+}
+
+.fixed-header2 {
+    background-color: rgba(000, 000, 000, .8);
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.menu-area ul {}
+
+.menu-area ul li {
+    margin: 30px 0 0 0;
+}
+
+.menu-area ul li a {
+    padding: 20px 20px;
+    font-size: 18px;
+    color: #fff;
+    font-family: raleway;
+}
+
+.menu-area ul li a:hover {
+    color: #1B7942;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.menu-icon1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    display: none;
+    float: right;
+}
+
+.menu-icon1 span {
+    position: absolute;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background-color: #000;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border-radius: 9px;
+    background-color: #fff;
+}
+
+.menu-icon1 span:nth-child(1) {
+    top: 0px;
+}
+
+.menu-icon1 span:nth-child(2) {
+    top: 15px;
+}
+
+.menu-icon1 span:nth-child(3) {
+    top: 30px;
+}
+
+.menu-icon2 {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icon2 span {
+    position: absolute;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background-color: #000;
+    -webkit-transition: 1s;
+    transition: 1s;
+    color: #fff;
+    background-color: #fff;
+}
+
+.menu-icon2 span:nth-child(1) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.menu-icon2 span:nth-child(2) {
+    left: -56px;
+    opacity: 0;
+}
+
+.menu-icon2 span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(135deg);
+}
+
+
+/* logo area */
+
+.logo-area {
+    width: 55%;
+    height: 55%;
+}
+
+
+/* about - me- area */
+
+
+
+.about-me-area {
+    padding: 100px 0;
+}
+
+.about-me-area h1 {
+    font-size: 45px;
+    font-family: raleway;
+    font-weight: 100;
+    padding: 10px 0;
+}
+
+.about-me-area p {
+    font-size: 25px;
+    font-family: raleway;
+    text-align: left;
+    font-weight: 100;
+    line-height: 40px;
+    padding: 10px 0;
+}
+
+.about-me-area h3 {
+    font-family: ArchiesHand;
+}
+
+.scroll-down {
+    padding: 50px;
+}
+
+.scroll-down p {
+    color: #7E8B8D;
+    font-family: raleway;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 80px 0 20px 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+    ;
+    font-family: raleway;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 80px 0 20px 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-area {
+    background-image: url(images/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.portfolio-header {
+    padding: 50px 0;
+}
+
+.portfolio-header h2 {
+    color: #fff;
+    font-family: raleway;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.portfolio-content img {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+
+/* contant - area */
+.contact-form{
+    margin: 95px 0 0 20px;
+}
+.contact-zone{
+    background-image: url(images/cable-call-communication-33999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact-area {
+    padding: 100px 0;
+}
+
+.contact-area h4 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.contact-area p {
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 20px 0;
+    letter-spacing: 5px;
+}
+/* gallery */
+.gallery-area{
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    background-image: url(images/header-bg.jpg);
+    background-attachment: fixed;
+}
+.gallery-area h2{
+    font-family: raleway;
+    font-size: 50px;
+}
+
+
+
+
+
+/* footer */
+
+.footer-area {
+    background-image: url(images/portfolio-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-area:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(000, 000, 000, .3);
+    top: 0;
+    left: 0;
+}
+
+.footer-area p {
+    font-size: 32px;
+    color: #fff;
+    font-family: raleway;
+    letter-spacing: 5px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.footer-area span {
+    color: #27AD5F;
+    font-family: arctic;
+    font-size: 32px;
+    letter-spacing: 7px;
+}
+
+
+/*==========================================================================media====================================================== */
+
+@media (max-width:768px) {
+    .menu-icon1 {
+        display: block;
+    }
+    .menu-area {
+        display: none;
+    }
+    .menu-area a {
+        display: block;
+    }
+    .fixed-header {
+        padding: 0;
+    }
+   
+    
+}
+
+@media (max-width:990px) {
+    .header-logo h1 {
+        font-size: 65px;
+        padding-left: 80px;
+    }
+    .header-logo span {
+        font-size: 67px;
+    }
+    
+    
+}
+
+@media (max-width:320px) {
+    .header-logo h1 {
+        font-size: 20px;
+        padding-left: 31px;
+    }
+    .header-logo span {
+        font-size: 20px;
+    }
+    .footer-area p {
+        font-size: 20px;
+        color: #fff;
+        font-family: raleway;
+        letter-spacing: 5px;
+    }
+    .footer-area span {
+        color: #27AD5F;
+        font-family: arctic;
+        font-size: 20px;
+        letter-spacing: 7px;
+    }
+    .portfolio-area {
+    background-image: url(images/portfolio-bg.jpg);
+    background-size: contain;   
+}
+}
+
+
+/* scroll */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #B2BEC3;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #2D3436;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #636E72;
+}
+
+@media (max-width:510px) {
+    .contact-area p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:445px) {
+    .contact-area p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:410px) {
+    .contact-area p {
+        font-size: 15px;
+    }
+}
